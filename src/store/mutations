@@ -1,0 +1,8 @@
+export default {
+  SET_TODOS (state, todos) {
+    state.todos = todos
+  },
+  CREATE_TODO (state, todo) {
+    state.todos.push(todo)
+  }
+}
